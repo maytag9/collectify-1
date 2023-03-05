@@ -32,7 +32,7 @@ const { Header } = Layout;
 const NavBar = (extra) => {
   return (
     <Space direction="vertical" style={{width: '100%'}}>
-      <Header>
+      <Header className='light'>
         <Logo/>
         <AddItemButton/>
       </Header>

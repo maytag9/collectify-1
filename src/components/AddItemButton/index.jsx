@@ -11,7 +11,6 @@ const AddItemButton = () => {
 
   return (<>
     <Button
-      // className={theme}
       style={{
         float: 'right',
         width: 120,
