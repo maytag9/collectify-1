@@ -3,7 +3,7 @@ import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space} from 
 
 const { Option } = Select;
 
-const AddItemButton = (theme) => {
+const AddItemButton = () => {
   const [drawerVisible, setDrawerVisible] = useState(false);
 
   const showDrawer = () => {setDrawerVisible(true)};
@@ -11,7 +11,7 @@ const AddItemButton = (theme) => {
 
   return (<>
     <Button
-      className={theme}
+      // className={theme}
       style={{
         float: 'right',
         width: 120,

@@ -10,21 +10,31 @@ const { Header } = Layout;
   label: `nav ${key}`,
 }));*/
 
-const themeStyle = (themeMode) => {
+/*const themeStyle = (themeMode) => {
   return {
     backgroundColor: themeMode !== 'dark' ? '#ffffff' : '#001529',
     color: themeMode !== 'dark' ? 'rgba(0, 0, 0, 0.88)' : 'rgba(255, 255, 255, 0.75)',
   }
-}
+}*/
 
-const NavBar = (themeMode, themeSecondary) => {
-
+/*const NavBar = (themeMode, themeSecondary) => {
   return (
     <Space direction="vertical" style={{width: '100%'}}>
       <Header theme={themeMode} style={themeStyle(themeMode)}>
         <Logo themeMode={themeMode}/>
         <AddItemButton theme={themeSecondary}/>
-        {/*<NavMenu themeMode={themeMode} />*/}
+        <NavMenu themeMode={themeMode} />
+      </Header>
+    </Space>
+  );
+};*/
+
+const NavBar = (extra) => {
+  return (
+    <Space direction="vertical" style={{width: '100%'}}>
+      <Header>
+        <Logo/>
+        <AddItemButton/>
       </Header>
     </Space>
   );

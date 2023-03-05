@@ -1,28 +1,40 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import MainWrapper from './components/MainWrapper';
+import { BulbFilled, BulbOutlined} from '@ant-design/icons';
+import { Layout, Switch } from 'antd';
+import ListView from './pages/ListView'
 
 const App = () => {
-  
+  // const [collapsed, setCollapsed] = useState(true);
+  // const [themeMode, setThemeMode] = useState('light');
+
+	// const themePrimary = themeMode !== 'dark' ? 'lightPrimary' : 'darkPrimary';
+	// const themeSecondary = themeMode !== 'dark' ? 'lightSecondary' : 'darkSecondary';
+
+  /*const changeTheme = (value) => {
+    setThemeMode(value ? 'dark' : 'light');
+  };*/
+
   return (
-    <div className="App">
-      <MainWrapper/>
-      {/*<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>*/}
-    </div>
+    <Layout className="App" style={{minHeight: '100vh'}}>
+			<div
+				style={{
+					position: "absolute",
+					right: '0',
+					padding: '20px',
+					width: '100',
+			}}>
+				<Switch
+					className='themeSwitch'
+					// checked={themeMode === 'dark'}
+					// onChange={changeTheme}
+					checkedChildren={<BulbOutlined />}
+					unCheckedChildren={<BulbFilled />}
+				/>
+			</div>
+      <ListView />
+    </Layout>
   );
 }
 

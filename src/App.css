@@ -102,6 +102,21 @@ body{
   background: #63b349 !important;
 }
 .ant-switch.themeSwitch.ant-switch-checked:hover {
-  background: darken(#63b349, 10%) !important;
+  background: darken(#63b349, 10%);
 }
 
+/*-------------------*/
+.ant-layout .ant-layout-header{
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.88);
+}
+.ant-layout .ant-layout-header.dark{
+  background-color: #001529;
+  color: rgba(255, 255, 255, 0.75);
+}
+.ant-switch.ant-switch-checked{
+  background: #606aff;
+}
+.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled){
+  background: #4b54cf !important;
+}
