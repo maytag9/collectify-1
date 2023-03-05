@@ -4,15 +4,13 @@ import '../../global_styles.less';
 import React, {useState} from 'react';
 import NavBar from '../NavBar';
 import ItemGallery from '../ItemGallery';
-import ItemGallery2 from '../ItemGallery2';
 import MovieGallery from '../MovieGallery';
 import ListBanner from '../ListBanner';
-import SideMenu from '../SideMenu';
 
 const { Content, Footer } = Layout;
 
 const MainWrapper = () => {
-  const [collapsed, setCollapsed] = useState(true);
+  // const [collapsed, setCollapsed] = useState(true);
   const [themeMode, setThemeMode] = useState('light');
 
 	const themePrimary = themeMode != 'dark' ? 'lightPrimary' : 'darkPrimary';

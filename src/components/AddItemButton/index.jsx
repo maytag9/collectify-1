@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space} from 'antd';
-import { PlusOutlined } from '@ant-design/icons';
 
 const { Option } = Select;
 

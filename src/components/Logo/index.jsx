@@ -1,6 +1,6 @@
 import React from "react";
 
-const Logo = (themeMode) => {
+const Logo = () => {
 	return (
     <div
 			className="logo" 
