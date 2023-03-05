@@ -36,8 +36,6 @@ const MainWrapper = () => {
 					<ItemGallery />
 					<br/>
 					<MovieGallery/>
-					<br/>
-					<MovieGallery/>
 				</Content>
 				<Footer style={{textAlign: 'center'}}>
 					Collectify ©2023 Created by Maytag @insert-company-name-here?
