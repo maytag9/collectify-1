@@ -67,7 +67,7 @@
 body{
   overflow: hidden;
 }
-/*
+
 @secondary-color: #63b349;
 @secondary-color-hover:  darken(@link-color, 10%);
 
@@ -80,28 +80,28 @@ body{
 @lightMode-color-secondary: #282828;
 @darkMode-background-secondary: #282828;
 @darkMode-color-secondary: #aaa;
-*/
+
 .lightPrimary {
-  background-color: #ffffff;
-  color: rgba(0, 0, 0, 0.88);
+  color: @lightMode-background;
+  background-color: @lightMode-color;
 };
 .darkPrimary {
-  background-color: #001529;
-  color: rgba(255, 255, 255, 0.75);
+  color: @darkMode-color;
+  background-color: @darkMode-background;
 };
 .lightSecondary {
-  background-color: #aaa;
-  color: #282828;
+  color: @lightMode-color-secondary;
+  background-color: @lightMode-background-secondary;
 };
 .darkSecondary {
-  background-color: #282828;
-  color: #aaa;
+  color: @darkMode-color-secondary;
+  background-color: @darkMode-background-secondary;
 };
 
 .ant-switch.themeSwitch.ant-switch-checked {
-  background: #63b349 !important;
+  background: @secondary-color !important;
 }
 .ant-switch.themeSwitch.ant-switch-checked:hover {
-  background: darken(#63b349, 10%) !important;
+  background: @secondary-color-hover !important;
 }
 
