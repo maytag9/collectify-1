@@ -5,7 +5,7 @@ import { Card, Col, Row } from 'antd';
 // const { Meta } = Card;
 
 const items = [
-	{
+	/*{
 		imgAlt: "example",
 		imgSrc: "../../images/movie-covers/equilibrium-1.jpg",
 		actions: true,
@@ -64,6 +64,70 @@ const items = [
 	{
 		imgAlt: "example",
 		imgSrc: "../../images/movie-covers/spiderman_miles-2.jpg",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},*/
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+		actions: true,
+		avatarSrc:"https://joesch.moe/api/v1/random",
+		title:"Card title",
+		description:"This is the description",
+	},
+	{
+		imgAlt: "example",
+		imgSrc: "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
 		actions: true,
 		avatarSrc:"https://joesch.moe/api/v1/random",
 		title:"Card title",
