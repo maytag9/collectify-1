@@ -12,8 +12,8 @@ const { Header } = Layout;
 
 const themeStyle = (themeMode) => {
   return {
-    backgroundColor: themeMode != 'dark' ? '#ffffff' : '#001529',
-    color: themeMode != 'dark' ? 'rgba(0, 0, 0, 0.88)' : 'rgba(255, 255, 255, 0.75)',
+    backgroundColor: themeMode !== 'dark' ? '#ffffff' : '#001529',
+    color: themeMode !== 'dark' ? 'rgba(0, 0, 0, 0.88)' : 'rgba(255, 255, 255, 0.75)',
   }
 }
 

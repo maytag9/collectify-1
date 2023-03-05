@@ -13,8 +13,8 @@ const MainWrapper = () => {
   // const [collapsed, setCollapsed] = useState(true);
   const [themeMode, setThemeMode] = useState('light');
 
-	const themePrimary = themeMode != 'dark' ? 'lightPrimary' : 'darkPrimary';
-	const themeSecondary = themeMode != 'dark' ? 'lightSecondary' : 'darkSecondary';
+	// const themePrimary = themeMode !== 'dark' ? 'lightPrimary' : 'darkPrimary';
+	const themeSecondary = themeMode !== 'dark' ? 'lightSecondary' : 'darkSecondary';
 
   const changeTheme = (value) => {
     setThemeMode(value ? 'dark' : 'light');
