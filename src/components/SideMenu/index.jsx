@@ -13,7 +13,7 @@ function getItem(label, key, icon, children) {
   };
 }
 
-const items2 = [
+/*const items2 = [
   getItem('Navigation One', '1', <MailOutlined />),
   getItem('Navigation Two', '2', <CalendarOutlined />),
   getItem('Navigation Two', 'sub1', <AppstoreOutlined />, [
@@ -34,7 +34,7 @@ const items2 = [
     'link',
     <LinkOutlined />,
   ),
-];
+];*/
 
 const items = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
   const key = String(index + 1);

@@ -5,10 +5,10 @@ import AddItemButton from '../AddItemButton';
 
 const { Header } = Layout;
 
-const items1 = ['1', '2', '3'].map((key) => ({
+/*const items1 = ['1', '2', '3'].map((key) => ({
   key,
   label: `nav ${key}`,
-}));
+}));*/
 
 const themeStyle = (themeMode) => {
   return {
